@@ -19,8 +19,10 @@ describe('dice', function() {
         expect(dice.findCorrectNumber([ 3, 5, 3, 5, 4, 2 ])).toEqual(12);
     });
 	
-
+	it("should return 0 for [1, 2, 3]", function() {
+        expect(dice.findCorrectNumber([1, 2, 3])).toEqual(0);
+    });
 	
-
+	
 
 });

@@ -16,7 +16,8 @@ testcase 3:
 testcase 4:
 [ 3, 5, 3, 5, 4, 2 ] -> 12
 
-
+testcase 5:
+[1, 2, 3] -> 0
 
 
 
