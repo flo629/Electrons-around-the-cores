@@ -2,14 +2,13 @@
 function Dice() {}
 Dice.prototype.findCorrectNumber = function(dice_numbers) {
 	
-	if (dice_numbers[0] === 1) {
-		return 6;
-	  } else if(dice_numbers[0] === 2) {
-		return 4;
-	  }else
-	  {
-		return 2;
-	  }
+	var electrons = 0;
+	electrons += dice_numbers.filter(x => x === 3).length * 2;
+	electrons += dice_numbers.filter(x => x === 5).length * 4;
+	
+	return electrons;
+	
+	
 
 	
 };
