@@ -10,6 +10,10 @@ describe('dice', function() {
 	it("should return 4 for [2, 2, 3, 3]", function() {
         expect(dice.findCorrectNumber([2, 2, 3, 3])).toEqual(4);
     });
-
 	
+	it("should return 2 for [6, 6, 4, 4, 1, 3]", function() {
+        expect(dice.findCorrectNumber([6, 6,4, 4, 1, 3])).toEqual(2);
+    });
+	
+
 });
